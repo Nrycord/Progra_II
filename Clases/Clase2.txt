@@ -1,0 +1,25 @@
+Repaso de la clase pasada: {
+&puntero = muestra la direccion del puntero
+*puntero = muestra el valor de la variable a la que apunta
+ puntero = muestra la direccion de la variable a la que apunta 
+
+ej: 
+___________________________________________________
+|Posicion |valor almacenado| nombre de la variable|
+|---------|----------------|----------------------|
+|0x28ff0c |4		   | 	   (aux)	  |
+|0x28ff08 |0x28ff0c	   |	 (puntero)	  | (puntero almacena la posicion en la que se encuentra aux
+---------------------------------------------------
+int aux = 4; int *puntero = &aux;
+cout << &puntero;// == 0x28ff08
+cout << *puntero;// == 4
+cout << puntero;// == 0x28ff0c
+
+}
+
+AL RESTAR DOS POSICIONES DE MEMORIA AL RESULTADO ES LOS ESPACIOS QUE HAY ENTRE ELLAS
+
+
+hacer la guia, solo tiene dos ejercicios. explicar el codigo de una forma tecnica y personalizada
+
+TAREA: HACER UNA FUNCION QUE PERMITA IMPRIMIR UNA CADENA A LA INVERSA UTILIZANDO PUNTEROS

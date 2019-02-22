@@ -1,0 +1,101 @@
+//comportamiento de el arreglo asignandole una cadena de datos
+int main(){
+int arreglo[] = {3,2,1]
+int *puntero;
+puntero = arreglo; //no es necesario colocar el & porque el arreglo ya es un puntero
+cout << *puntero;//imprime el valor del primer elemento del arreglo
+cout << *(puntero + 0); //imprime el valor del primer elemento del arreglo al mover "0" espacios de el arreglo
+cout << puntero[0]; //imprime el valor del primer elemento del arreglo utilizando la posicion 0
+}
+
+
+//comportamiento de la cadena en un arreglo de caracteres
+int main(){
+char *cadena = "Universidad Mayor";
+cout << cadena; //imprime "Universidad Mayor". Es una excepcion a la funcionalidad del puntero que normalmente solo imprimira el primer dato
+}
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////7
+
+
+PILA:
+Lista ordenada de dato en las que todas las inserciones y supreciones se realizan por un mismo extremo denominado tope o cima de la pila.
+
+Estructura LIFO
+
+
+OPERACIOENS BÁSICAS:
+Push: Apilar, Meter. //hay que verificar que la pila no este llena
+Pop: Desapilar,Sacar. //hay que verificar que la pila no este vacia
+Top: Cima, tope
+
+Crear_pila(P:pila, ok:logico)
+Borrar_pila(P:pila, ok:logico)
+Vacía?(P:pila, resp:lógico)
+LLena?(P:pila, resp:lógico)
+Push(P:pila,X:elemento, resp:lógico) //agrega un dato
+Pop(P:pila,X:elemento, resp:lógico) //elimina un dato
+Top(P:pila,X:elemento, resp:lógico) //muestra el tope
+P:Pila = nombre de la pila
+
+
+
+IMPLEMENTACION:
+Vectores: Variables estáticas, tamaño máximo fijo (overflow)(uso ineficiente de la memoria).
+Listas enlazadas: Variables dinamicas, No riesgo de overflow, Limitadas por memoria disponible, Cada elemento necesita más memoria (guardar dirección siguiente), Uso eficiente de la memoria
+
+
+
+
+Elemento = T,
+Pila = registro de tope: numérico;
+arreglo:Vector[1..MAX] de ;
+
+Algoritmo PUSH(P:Pila,op:logico) es resp:lógico;
+INICIO
+	llena?(P,resp);
+	si resp entonces;
+		ok: falso;
+	sino
+		ok:cierto
+
+
+
+
+Algoritmo POP(P:Pila,op:logico) es resp:lógico;
+INICIO
+	Vacia?(P,resp);
+	si resp entonces;
+		ok: falso;
+	sino
+		X: = P.arreglo[P.tope];
+		P.tope: = P.tope -1;
+	ok: = cierto;
+
+
+
+
+IMPLEMENTACION CON LISTAS ENLAZADAS:
+ES LA MAS COMPLICADA
+ELEMENTO = T;
+NODO = registro de info: ELEMENTO;
+sgte: puntero a NODO;
+finregistro;
+POSICION = puntero a NODO;
+
+PILA = REGISTRO DE LONGITUD: numerico; prim: POSICION; finregistro;
+
+cabecera
+|Long|prim|		|a1| | --> |a2|  | --> |a3|--|
+				      sgte 
+
+
+APLICACIONES:
+Equilibrado de simbolos.
+llamadas a subprogramas.
+elimincion de recursividad.
+tratamiento de expresiones aritméticas.
+borrado de caracteres en un editor de datos.
+
+CREAR UNA PILA QUE PERMITE ALMACENAR COORDENADAS EN 3 DIMENCIONES (TIPO DOUBLE) (JUEVES)
