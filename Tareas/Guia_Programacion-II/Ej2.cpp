@@ -1,6 +1,5 @@
-#include <stdio.h> 
-#include <conio.h> 
-#include <iostream>
+//Creado por: Carlos Cordero. CL18030
+#include <iostream> //ingreso y salida de datos
 using namespace std;
 //multiplica el numero ingresado por 10
 float x10(float mult);
