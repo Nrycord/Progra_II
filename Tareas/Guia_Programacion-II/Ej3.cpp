@@ -1,6 +1,5 @@
-#include <stdio.h> 
-#include <conio.h> 
-#include <iostream>
+//Creado por: Carlos Cordero. CL18030 
+#include <iostream> //ingreso y salida de datos
 using namespace std;
 //eleva el numero deseado a un exponente que el usuario ingrese
 float potencia(double n, int p);
