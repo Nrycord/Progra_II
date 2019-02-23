@@ -1,3 +1,4 @@
+//Creado por: Carlos Cordero. CL18030 
 #include<iostream> //ingreso y salida de datos
 using namespace  std;
 
