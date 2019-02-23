@@ -1,6 +1,5 @@
-#include <stdio.h> 
-#include <conio.h> 
-#include <iostream>
+//Creado por: Carlos Cordero. CL18030
+#include <iostream> //ingreso y salida de dtos
 using namespace std;
 //obtiene el area de un cuadrado o de un cubo
 void area();
