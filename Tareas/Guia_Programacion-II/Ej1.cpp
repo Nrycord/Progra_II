@@ -1,6 +1,5 @@
-#include <stdio.h> 
-#include <conio.h> 
-#include <iostream>
+//Creado por: Carlos Cordero. CL18030
+#include <iostream> //ingreso y salida de datos
 using namespace std;
 //Si el primer numero es mayor, intercambia el valor de las variables
 int mayor(int*, int*);
