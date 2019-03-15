@@ -1,0 +1,74 @@
+Que es la memoria estatica y dinamica? 
+diamica-Puede llegar a tomas mas memoria si la necesita
+estatica-Una vez se compila no se puede agregar mas espacios.
+
+Cuanto espacio ocupa un puntero?
+
+ejemplo de una estructura con memoria dinamica (estructura con pila,fila) y estatica (estructura basica)
+
+ejemplo de un arreglo con memoria dinamica (pila,fila,etc) y con estatica (int,bool,float,etc)
+
+Que es un arreglo? Una cadena de variables ordenadas una tras otra en la memoria (de forma consecutiva)
+
+Que tipos de arreglo hay? tipo entero, flotante, caracter, booleano, double, structuras.
+
+como obtener la direccion de una variable? por medio del "&variable"
+
+arreglo de tipo entero de 3 elementos, como obtener la posicion del elemento 1? &arreglo; --> No es necesario poner el [0] porque de por si apunta al primer dato;
+
+arreglo de tipo entero de 3 elementos, como obtener la posicion del elemento 1? &arreglo[1] o se usa un puntero-->  *puntero=&x + 1;
+
+¿Cuantos bytes ocupa un entero? 4 bytes
+
+
+
+
+
+CLASES
+
+
+
+//struct Empleados->Solo atributos
+//class Empleados->tambien acciones
+
+modificadores de acceso:
+private: //Solo la clase puede acceder al dato
+//Los datos de una clase son obligatoiamente privados
+public: //Otras clases y funciones pueden acceder al dato
+	entero  puntero de tipo nodo
+Nodo = { | int |  *  |               }
+
+
+
+
+
+
+
+-----------------Plantilla de clase----------
+class Pila { //las clases inician con mayuscula
+	private: //a la estructura se le considera como un objeto cuando entra con pilas
+		//Los datos de una clase son obligatoiamente privados
+		class Nodo{
+			public: //modificador de acceso
+				int info;
+				Nodo *sig; //aparta el espacio para la siguiente espacio para el nodo
+		};
+		Nodo *raiz;
+	
+	public:
+		Pila();
+		~Pila();
+		void insertar(int x);
+		int extraer();
+		void imprimir();
+
+-----------------Plantilla de clase----------
+
+
+
+};
+
+
+Usando stack
+Usando clases
+Usando estructuras y funciones

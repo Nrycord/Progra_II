@@ -1,0 +1,19 @@
+COLAS
+
+necesitan el dato que ingresara
+un arreglo que apunte al primer dato
+un puntero que apunte al inicio de la cola
+
+Cola: coleccion ordenada de objetos, a diferencia de los arreglos las colas pueden no tener un limite definido de espacios en la memoria
+
+
+COLA ESTATICA : Solo permite cierto numero especifico de datos, de espapcios
+
+Orden de prioridad asendente o desendente
+
+
+
+TIPOS DE COLA...
+Cola simple.
+Cola con prioridad. (ordenar de forma ascendente/desendente mediante un criterio)
+Colas circulares. (registros estaticos)Busca reutilizar espacios que la misma cola ha utilizado, se acostumbra a dejar al menos un espacio entre el final y el inicio de la cola, una vez llegado se utilizan todos los elementos estos pueden "retornar" a la posicion inicial.
