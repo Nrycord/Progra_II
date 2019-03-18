@@ -2,6 +2,7 @@
 #include<iostream>
 #include <string.h>
 using namespace std;
+//creado por Carlos Enrique Cordero Linares CL18030
 
 /*+-+-+-+-+-+-+-+-+-+-+CLASE+-+-+-+-+-+-+-+-+-+-+*/
 class Cola{
@@ -30,14 +31,14 @@ class Cola{
 /*+-+-+-+-+-+-+-+-+-+-+CLASE+-+-+-+-+-+-+-+-+-+-+*/
 
 /*+-+-+-+-+-+-+-+-+-+-+Centrar texto+-+-+-+-+-+-+-+-+-+-+*/
-void centerstring(string s)
+void centerstring(string s) //toma un dato tipo string
 { //codigo obtenido de: https://www.dreamincode.net/forums/topic/13749-center-text-with-cout/
-   int l=strlen(s.c_str());
-   int pos=(int)((115-l)/2);
-   for(int i=0;i<=pos;i++)
-    cout<<" ";
+   int l=strlen(s.c_str()); //saca el numero de caracteres que posee el string (lo convierte en tipo caracter momentaneamente
+   int pos=(int)((115-l)/2); //"parte" cierto tamaño de la consola en dos partes, de esa forma saber hasta donde dejar el texto para que este centrado 
+   for(int i=0;i<=pos;i++) //recorre el ciclo hasta que haya pasado "pos" veces
+    cout<<" ";//Imprime un espacio por cada caracter que tenga pos, de esa forma deja el texto en el medio de la consola
    
-   cout<<s;
+   cout<<s; //Imprime el string original despues de todos los espacios
 }
 /*+-+-+-+-+-+-+-+-+-+-+Centrar texto+-+-+-+-+-+-+-+-+-+-+*/
 
@@ -66,7 +67,7 @@ Cola::Cola(){
 Cola::~Cola(){ //En este caso se va eliminando como si fuera pila, al final no da problemas si se utiliza fondo o pila
 	Nodo *reco = raiz; //reco apunta al ultimo valor de la cola
 	Nodo *bor; //Puntero auxiliar que toma el ultimo nodo de la cola para eliminarlo
-	while(reco != NULL){ //si reco no esta vac�o
+	while(reco != NULL){ //si reco no esta vacío
 		bor = reco; //se le asigna el valor de reco a bor
 		reco = reco->sig; //reco adquiere el valor de un dato anterior
 		delete bor; //Se borra el ultimo elemento de la cola
@@ -196,7 +197,6 @@ int main(){
 	float y;
 	float z;
 	int op;
-	
 	system("color 70");
 	do{
 	menu();
