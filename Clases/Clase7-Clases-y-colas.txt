@@ -1,0 +1,19 @@
+class Cola{
+	
+	/*Atrributo*/
+	class Nodo{ /*Estructura o tipo de dato Nodo de la clase*/
+		public:
+			int info;
+			Nodo *sig;
+	};
+	/*------------------------------*/
+	Nodo *raiz; //El ultimo elemento
+	Nodo *fondo; //El primer elemento de la cola
+	
+};
+
+
+instanciar una clase---> librar el espacio en la memoria para almacenar datos en una estructura
+
+
+No usar ~Cola(), sino delete "Nombre de la cola";

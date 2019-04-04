@@ -1,0 +1,41 @@
+Crisis del software: Razón por la que surge la programación orientada a objetos.
+
+los costos de los sistemas eran demaciados costosos, por ende reducia la cantidad de ingresos y la dificultad de comprarlos.
+
+surge - Ingenieria de software (se encarga de encontrar como reducir los costos de producción).
+
+
+
+
+
+
+
+
+Ej:
+
+
+/*-------------------------------DIAGRAMA DE CLASE-------------------------------*/
+			Figura
+		propiedades (privado):
+			-base (float)
+			-altura (float)
+	
+		acciones (público):
+			+area() (float)  ---> virtual float area() = 0;
+		+perimetro() (float) ---> virtual float perimetro() = 0;
+		^
+		|
+- = Private	|
++ = Public	|
+/*--------------|-----------------DIAGRAMA DE CLASE-------------------------------*/
+		|
+/*--------------|-----------------DIAGRAMA DE CLASE DE UN RECTANGULO-------------------------------*/
+		|	Rectangulo
+		|__Figura
+		   +imprimirR() (void)
+
+
+TIPO DE DATO PROTECTED, PUEDEN ACCEDER LA CLASE Y SUS HIJOS
+
+
+//Si se llega a pedir convertir un diagrama a codigo hay que incluir los constructores y los destructures. ademas de incluir los metodos set y get para cada uno de las propiedades.

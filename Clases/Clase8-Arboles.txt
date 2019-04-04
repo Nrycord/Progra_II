@@ -1,0 +1,43 @@
+arbol (programacion)- estructuras que se pueden implementar para mejorar/optimizar el uso de la memoria.
+Son muy eficientes en algoritmos de busqueda.
+La diferencia es que en las po¿ilas y colas cada nodo solo apuntaba a un nodo mas, mientras que el aarbol tiene nodos que pueden apuntar a dos o mas nodos (el nodo binario solo puede tener 2 max)
+
+se componen de raizes, ramas e hijos(hojas).
+
+cada dato es considerado un nodo
+
+Nodo hoja: Nodo que no tiene hojas
+Nodo raiz: El primer nodo
+Nodo padre: Aquel nodo que tenga hijos
+Ramas: divicion de el arbol
+
+arbol binario: cada nodo puede tener max 2 hijos.
+
+un nodo puede apuntar a varios nodos (a sus hijos)
+
+
+busqueda: optimiza grandemente, es una de las razones por las qe los arboles son muy util
+
+el trabajo en los arboles es recursivo
+
+
+Estudiar de:
+https://es.wikipedia.org/wiki/Árbol_binario_de_búsqueda
+
+Por si acaso:
+https://es.wikipedia.org/wiki/Árbol_binario
+
+
+Operaciones:
+
+	Búsqueda
+	Inserción
+	Borrado
+	Recorridos (inorden, preorden y postorden), se utilizara preorden y posorden mas que todo.
+
+
+inorden (De izquierda a derecha)(de menor a mayor)
+preorden (de arriba a abajo) (de rama en rama, de forma ordenada)
+posorden (de abajo hacia arriba) (de hijos a padre, deja a la raiz como final)
+	
+	
