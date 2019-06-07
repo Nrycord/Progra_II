@@ -1,36 +1,30 @@
 #include<iostream>
 using namespace std;
 
+
 //relacion de herencia
 /*Clase figura de la clase 10*/
 
 //relacion de dependencia
 /*Clase principal de la clase 10*/
 
-
-
 //RELACION DE AGREGACION o "todo-partes"
 /* Estudia un objeto como composicion de otro 
 si la clase que queremos definir tiene un atributo de la otra clase es una relacion de agregacion, se reprecenta con un rombo
 atributo = Clase;
-      
-      
+            
 Recordar que las clases van con Mayuscula en el primer digito, los tipos de dato y otras variables no.
-
 
 Existe la RELACION DE COMPOSICION. 
 (agregacion fuerte) - es cuando hay una dependencia fuerte. Es cuando una clase con 
 relacion agregacion no tiene sentido fuera de la clase con  la que se concecta Se representa con el rombo relleno
 
-
-
-
 RELACION DE ASOSIACION.
-Cuando una requiera servicios de la otra (muchas emprezas necesitann muchos empleados.
+Cuando una requiera servicios de la otra (muchas empresas necesitan muchos empleados.
 0..* significa cardinalidad, 0,1,2,3....
 * significa que no se sabe cuantos obetos se necesitaran.
 
-Si es mas imporaatnte reflejar las relaciones - asociacion, si no se cuantos objetos habran tambien
+Si es mas importante reflejar las relaciones - asociacion, si no se cuantos objetos habran tambien
 
 si se quiere reflejar las dependencias
 
